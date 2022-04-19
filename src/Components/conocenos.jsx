@@ -1,16 +1,11 @@
 
 import {data} from './users/data'
-// import UnderTest from '../../src/imgs/Under-Test.png';
-
-
-{/* <UnderTest /> */}
 export const Conocenos = () => {
    return(
     <>
     <section id="MainSec">
   <div id="MeetUs">
    <h1>Conoce a nuestro staff:</h1>
-
   </div>
   <section className="conocenos">
 
@@ -30,13 +25,9 @@ export const Conocenos = () => {
             )
              //The key id is used as a unique identifier for each element.
           })
-        
         }
        </section>
     </section>
- 
-      
     </>
    )
 }
-
