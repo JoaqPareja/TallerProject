@@ -5,12 +5,9 @@ import '../src/Styles/menu.css'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as React from "react";
 import  {Redes} from './Components/redes';
-// import { Home } from './Components/home';
 import  {Nav}  from '../src/Components/nav';
 import {Conocenos}  from '../src/Components/conocenos';
 import  {MainMenu}  from '../src/Components/mainMenu';
-
-
 
 const App = ()=>{
   return(
@@ -33,7 +30,4 @@ const App = ()=>{
    )
 }
 
-
 export default App;
-
-
