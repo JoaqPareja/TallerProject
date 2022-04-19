@@ -7,12 +7,6 @@ import {Link}  from "react-router-dom"
 import UnderTest from '../../src/imgs/Under-Test.png'
 import {NavMenu} from './ResponsiveMenu/Burger/navMenu';
 import {Navbar} from "./ResponsiveMenu/Burger/navBar";
-
-
-
-
-
-
  
 export const Nav = () => {
    
