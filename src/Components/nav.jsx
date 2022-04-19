@@ -1,5 +1,4 @@
 
-// import '../Styles/App.css';
 import React, { useState, useEffect  } from "react"
 // import {Hamburger} from './ResponsiveMenu/Burger/burger'
 // import {NavMenu} from './ResponsiveMenu/Menu/navMenu'
@@ -9,14 +8,11 @@ import {NavMenu} from './ResponsiveMenu/Burger/navMenu';
 import {Navbar} from "./ResponsiveMenu/Burger/navBar";
  
 export const Nav = () => {
-   
         const [isDesktop, setDesktop] = useState(window.innerWidth > 800);
-      
         const updateMedia = () => {
           setDesktop(window.innerWidth > 800);
         };
-    
-    
+ 
         useEffect(() => {
             window.addEventListener("resize", updateMedia);
             return () => window.removeEventListener("resize", updateMedia);
@@ -32,9 +28,6 @@ return(
         </Link>
         </div>
         {isDesktop ? ( <NavMenu  /> ) :(  <Navbar/> ) }
-   
-        {/* <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
-            <NavMenu open={open} setOpen={setOpen} id={menuId} /> */}
       </nav>
     </header>   
     </>
