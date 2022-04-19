@@ -1,0 +1,42 @@
+
+/*Nabar & Burger Menu*/  
+
+header{
+    border-bottom: 1px solid #E2E8F0;
+   width: inherit;
+   }
+
+   /* /no eliminar */
+
+   #underTest{
+    position:relative;
+    opacity: 0.7;
+   width: clamp(300px, 50%, 500px);
+    transition: all 2s ease;
+    border-radius: 3.75em;
+   }
+
+   .navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 2fr; 
+   width: 100%; 
+   align-content: center;
+   justify-content: space-around;
+   align-items: end;
+   justify-items: center;
+  }  
+  .navbarIMG{
+   grid-column: 2 / 2;
+  }
+  #icon{
+   width: clamp(100px, 20%, 700px);
+   /* left: 100px; */
+   transform: translate(200%, 50%);  
+  border-style: solid;
+  background-color: rgb(240, 244, 247);
+  border-color: rgb(240, 244, 247);
+  }
+  
+
+  

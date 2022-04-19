@@ -1,0 +1,188 @@
+
+/*Basics*/
+
+
+html {
+  position:relative;
+  min-height: 100% ;
+    font-family: Open Sans, Helvetica;
+    margin: 0;
+    padding:0;
+
+  }
+body { 
+  margin: 0;
+  background-color:  rgb(240, 244, 247);
+  padding:0;
+  background-size: cover;
+   background-position: center;
+     background-attachment:fixed;
+    display: flex;
+   flex-flow: column;
+  
+ }
+
+#root{
+  height: 100%
+}
+
+
+
+/*Main*/
+
+
+main{
+  /* width: clamp(100%, 100%, 2000px); */
+  /* height: 100%; */
+   /* top: 0; */
+ /* font-size: clamp(1rem, 0.8rem, 1.3rem); */
+  background-color:  rgb(240, 244, 247);
+  /* color: rgb(15, 15, 14); */
+  /* position: sticky; */
+
+
+  /* margin-top: 10%; */
+  text-align: center;
+  /* margin-bottom: 10%; */
+ /* padding-top: 10%; */
+
+}
+#MainSec{
+  font-size: 2rem;
+  /* width: 100%; */
+  background-image: url("../src/imgs/Background.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+   background-position: center;
+   padding-top: 3%;
+   /* padding-bottom: 10%;  */
+
+}
+
+#information{
+  padding-top: 10%;
+  padding-bottom: 10%;
+font-style: inherit;
+
+  /* margin-bottom: 10%; */
+}
+
+
+#unirse{
+  width: 120px;
+  height: 60px;
+  background-color: rgb(201, 140, 61);
+  border-radius: 11px;
+  border:3px;
+  color: rgb(250, 250, 244);
+}
+
+/**8
+
+Conocenos
+***/
+#MeetUs{
+  margin-top: 50px;
+  width: auto;
+
+  /* margin-left: 20%; */
+}
+#MeetUs h1{
+/* margin-left: clamp(1rem, 0.8rem, 1.3rem); */
+margin-left: 17%;
+font-size: clamp(2.1rem, 0.7153rem + 1.6368vw, 1.5rem);
+}
+
+.conocenos{
+  
+  margin-left: 15%;
+  width: 75%;
+  position: relative;
+  margin-top: 50px;
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: 1fr;
+  /* grid-template-columns: repeat(2, minmax(240px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  /*grid-column-gap: 10%;*/
+  font-size: clamp(1rem, 0.8rem, 1.3rem);
+  /* margin-bottom: auto; */
+  padding-bottom: 3%;
+}
+
+
+.conocenos_article{
+  font-size: clamp(1rem, 0.8rem, 1.3rem);
+}
+ .conocenos-img{
+  margin-top: 5%;
+  width: clamp(75%, 60%, 500px);
+  border-radius: 150px;
+   margin-bottom: 10%;
+ }
+
+.li-article h2{
+  font-size: 1.5rem;
+margin-left: 5%;
+width: 100%;
+}
+
+
+/**Redes*/
+#SecRed{
+  width:100%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+#secRed2 a{
+ text-decoration-line: none;
+ text-decoration: unset;
+}
+
+#SecRed h3{
+ /* margin-bottom: 50px; */
+ margin-left: 35%;
+ text-align: left;
+ align-items: left;
+ align-content: left;
+ align-self: left;
+ margin-bottom: 3%;
+ font-size: 2rem;
+}
+#secRed2{
+ margin-left: 35%;
+
+ /* margin-left: auto;
+ margin-right: auto; */
+ width: 60%;
+ display: grid;
+ align-items: center;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(2, 10px);
+ grid-gap: 6rem;
+
+ font-size: clamp(1.1rem, 0.7153rem + 1.6368vw, 1.5rem);
+}
+
+#secRed-Img2{
+ margin-left: 80%;
+ grid-column:  1;
+ grid-row:  2;
+
+}
+#secRed-Img3{
+ margin-left: 80%;
+  /* margin-left: 20px;  */
+  grid-column:  2;
+  grid-row: 2;
+
+}
+.secRed-Img{
+ width: clamp(160px, 10%, 100px);
+}
+
+.secRed-Img img{
+ width:clamp(1.5rem, 1rem, 1.2rem);
+ margin-right: 10px;
+}
+

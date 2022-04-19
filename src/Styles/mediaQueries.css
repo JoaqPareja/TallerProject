@@ -1,0 +1,116 @@
+/***MediaQueries***/
+
+@media only screen and  (min-width: 240px)  and (max-width: 800px){
+
+
+
+    
+      #information{
+        font-size: 1.3rem;
+      }
+    
+    #SecRed H3{
+     
+    
+      margin: auto;
+      text-align: center;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
+    
+    
+    #SecRed{
+     position:sticky;
+     /* margin-top: 40px; */
+     padding-bottom: 20%;
+     /* bottom: 0%; */
+    }
+    #secRed2{
+    font-size: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-rows: 1fr;
+      grid-gap: 60px;
+      text-align: left;
+      justify-content: left;
+      align-content: left;
+    }
+    #secRed-Img2{
+      width:auto;
+    
+      margin: 0px;
+      grid-column:  auto;
+      grid-row: auto;
+    }
+    #secRed-Img3{
+      width:auto;
+    
+      margin: 0px;
+      grid-column:  auto;
+      grid-row: auto;
+    }
+    
+      #icon{
+        transform: translate(0,0) !important;
+      }
+    
+        #MeetUs{
+            margin-top: 10%;
+            width: auto;
+          
+            /* margin-left: 20%; */
+          }
+
+          #MainSec{
+            /* padding-top: 30%; */
+            width: auto;
+            /* margin-left: 20%; */
+          }
+    }
+    
+    @media only screen and (width: 320px) {
+    
+     /* Iphone5/sE**/
+      .secRed-Img{
+        width: max-content;
+        margin-bottom: 20px;
+      }
+     
+    
+    }
+    
+    @media only screen and (min-width: 500px) and (max-width:600px){
+     
+      /* .nav-item {
+    
+        margin-right: 80px;
+      } */
+    
+    #secRed2{
+    
+      width: 25%;   
+    }
+    }
+    @media only screen and (min-width: 600px) and (max-width:700px){
+/*   
+        .hamburger {
+            grid-column: 2/3 !important;
+        width: auto;
+          margin-top: 10%;
+          display: block ;
+          padding-bottom: 0px !important;
+      }  */
+      /* .nav-item {
+    
+        margin-right: 200px;
+      } */
+      #secRed2{
+    
+        width: 23%;
+    
+      }
+    
+    }
+    
+
+    
