@@ -1,5 +1,3 @@
-
-
  export const MainMenu = ()=>{
     return(
       <>
@@ -11,9 +9,6 @@
        </div>
     </section>
     </main>
-      
-    </>
+      </>
     ) 
     }
-
-  
