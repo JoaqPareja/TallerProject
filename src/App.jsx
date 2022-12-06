@@ -14,7 +14,7 @@ import { CambioRulemanesSpecificPage  } from './Components/Conocenos/CambiosRule
 const App = ()=>{
   return(
 <>
-<Router basename="/TallerProject">
+<Router >
  <Nav/>
 
       <Routes> 
@@ -35,10 +35,11 @@ const App = ()=>{
       </Routes> 
 
         
-       </Router> 
+
        <footer >
        <Redes/>
        </footer>
+  </Router>
        </>
    )
 }
