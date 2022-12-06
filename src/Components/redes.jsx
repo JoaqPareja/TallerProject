@@ -1,15 +1,18 @@
 
+import { imagesRedesSociales } from "./Data"
+
 export const Redes = () => {
     return(
 <section id="SecRed">
   
-<h3>Redes Sociales</h3>
+<h2>Redes Sociales</h2>
 <div id="secRed2">
-  <a className="secRed-Img" href="https://t.me/undertest_es"><img src="../src/imgs/LinkedIn_logo_initials.png" alt="" className="RedImg" />/Telegram</a>
-  <a className="secRed-Img" href="https://bit.ly/under-test-slack"><img src="../src/imgs/127px-Slack_icon_2019.svg.png" alt="" className="RedImg"/>/Slack</a>
-  <a className="secRed-Img" href="https://bit.ly/3dZQeuK"><img src="../src/imgs/YouTube_icon_(2013-2017).png" alt="" className="RedImg"/>/Youtube</a>
-  <a id="secRed-Img2" className="secRed-Img" href="https://twitter.com/undertest_es"><img src="../src/imgs/índice.png" alt="" className="RedImg"/>/Twitter</a>
-   <a id="secRed-Img3"className="secRed-Img" href="https://open.spotify.com/show/5xIgqgCC1jPQsUqWclgD9R"><img src="../src/imgs/Spotify_icon-icons.com_66783.png" alt="" className="RedImg"/>/Spotify</a>
+  <a className="secRed-Img" href=""><img src={imagesRedesSociales.whatsap} alt="" className="RedImg" />/WhatsApp</a>
+  <a className="secRed-Img" href=""><img src={imagesRedesSociales.facebook} alt="" className="RedImg"/>/Facebook</a>
+   <a id="secRed-Img2" className="secRed-Img" href=""><img src={imagesRedesSociales.twiter} alt="" className="RedImg"/>/Twitter</a>
+    <a id="secRed-Img3"className="secRed-Img" href=""><img src={imagesRedesSociales.instagram} alt="" className="RedImg"/>/Instagram</a>
+  <a className="secRed-Img" href=""><img src={imagesRedesSociales.youtube} alt="" className="RedImg"/>/Youtube</a>
+
 </div> 
 </section>
 )

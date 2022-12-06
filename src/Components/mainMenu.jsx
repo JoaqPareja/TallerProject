@@ -4,8 +4,8 @@
       <main  >
       <section id="MainSec" >
       <div id='information'>
-         <h1>UnderTest-Dev</h1>
-         <h2>Comunidad de testing en español</h2>
+         <h1>Taller mecánico D&G</h1>
+         {/* <p></p> */}
        </div>
     </section>
     </main>

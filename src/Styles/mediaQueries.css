@@ -1,59 +1,88 @@
 /***MediaQueries***/
 
-@media only screen and  (min-width: 240px)  and (max-width: 800px){
-
-
-
+@media only screen and  (min-width: 310px)  and (max-width: 350px){
+  #information h1{
+    margin-top: 30%!important;
+    margin-bottom: 20%!important;
+    font-size: 2.5rem!important;
+    /* background-color: rgb(202, 205, 219)!important; */
     
+  }
+
+}
+@media only screen and  (min-width: 240px)  and (max-width: 800px){
+ html,body{
+  height: 100%;
+  /* position:absolute!important; */
+  /* min-height: -0px!important ; */
+ }
+ body {
+  display: flex;
+  flex-direction: column;
+}
+
+  #icon{
+    transform: translate(0,0%) !important;
+    width: 100px!important;
+  }
       #information{
         font-size: 1.3rem;
       }
+      #information h1{
+        margin-top: 25%;
+        margin-bottom: 25%;
+        font-size: 2.5rem;
+      }
+      .conocenosDivH2{
+        margin-left: 15%;
+        margin-bottom: 5%;
+       }
+      .h2Conocenos{
+        margin-top: 20%;
+        margin-left: 5%!important;
+        /* font-size: 30px; */
+      }
     
-    #SecRed H3{
-     
-    
-      margin: auto;
-      text-align: center;
-      margin-bottom: 5%;
-      margin-top: 5%;
+    #secRed{
+      flex: 1 0 auto;
     }
-    
-    
-    #SecRed{
-     position:sticky;
-     /* margin-top: 40px; */
-     padding-bottom: 20%;
-     /* bottom: 0%; */
+    footer{
+      /* width:auto; */
+      flex-shrink: 0;
+      /* height: 50px; */
+      /* position:fixed; */
+      /* width:0%;  */
+      /* bottom:50%; */
     }
+
     #secRed2{
-    font-size: 1.5rem;
+    
+      margin-left: 15%!important;
+    font-size: 2rem;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       grid-template-rows: 1fr;
+      
       grid-gap: 60px;
       text-align: left;
       justify-content: left;
       align-content: left;
     }
+    #SecRed h2{
+      margin: auto;
+      text-align: center;
+      margin-bottom: 5%;
+      margin-top: 5%;
+    }
     #secRed-Img2{
-      width:auto;
-    
-      margin: 0px;
-      grid-column:  auto;
-      grid-row: auto;
+      margin-left: 30%;
     }
-    #secRed-Img3{
-      width:auto;
-    
-      margin: 0px;
-      grid-column:  auto;
-      grid-row: auto;
-    }
-    
-      #icon{
-        transform: translate(0,0) !important;
-      }
-    
+  
+      #secRed-Img2 img{
+        width: 15%;
+        border-radius: 3px;
+      
+    } 
         #MeetUs{
             margin-top: 10%;
             width: auto;
@@ -68,49 +97,28 @@
           }
     }
     
-    @media only screen and (width: 320px) {
     
-     /* Iphone5/sE**/
-      .secRed-Img{
-        width: max-content;
-        margin-bottom: 20px;
+     /* @media only screen and (width: 320px) {
+    
+      /* Iphone5/sE* */
+      /* #icon{
+        
       }
      
     
-    }
+    }  */ 
     
     @media only screen and (min-width: 500px) and (max-width:600px){
-     
-      /* .nav-item {
-    
-        margin-right: 80px;
-      } */
-    
+ 
     #secRed2{
     
       width: 25%;   
     }
     }
     @media only screen and (min-width: 600px) and (max-width:700px){
-/*   
-        .hamburger {
-            grid-column: 2/3 !important;
-        width: auto;
-          margin-top: 10%;
-          display: block ;
-          padding-bottom: 0px !important;
-      }  */
-      /* .nav-item {
-    
-        margin-right: 200px;
-      } */
       #secRed2{
-    
         width: 23%;
-    
       }
-    
     }
-    
 
-    
+  

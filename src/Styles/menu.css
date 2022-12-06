@@ -19,23 +19,30 @@ header{
    .navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: 2fr; 
+     grid-template-rows: 1fr; 
    width: 100%; 
    align-content: center;
    justify-content: space-around;
    align-items: end;
    justify-items: center;
+   
   }  
+  #navMenu360{
+    justify-content: left;
+  }
+ 
+  
   .navbarIMG{
-   grid-column: 2 / 2;
+   /* grid-column: 1 / 1; */
   }
   #icon{
-   width: clamp(100px, 20%, 700px);
+   width: 120px;
    /* left: 100px; */
-   transform: translate(200%, 50%);  
+   transform: translate(0%, 40%);  
   border-style: solid;
   background-color: rgb(240, 244, 247);
   border-color: rgb(240, 244, 247);
+  border-radius: 100px;
   }
   
 

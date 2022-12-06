@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import {NavMenu} from '../Burger/navMenu';
 
 const StyledBurger = styled.div`
-  width: 2rem;
-  height: 2rem;
-//   position: fixed;
+  width: 3rem;
+  height: 3rem;
+  // position: fixed;
   top: 15px;
   right: 20px;
   z-index: 20;
@@ -18,12 +18,12 @@ const StyledBurger = styled.div`
     flex-flow: column nowrap;
   }
   div {
-    width: 2rem;
-    height: 0.25rem;
+    width: 3rem;
+    height: 0.50rem;
     background-color: ${({ open }) => open ? '#ccc' : '#333'};
     border-radius: 10px;
     transform-origin: 1px;
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
