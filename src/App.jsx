@@ -2,7 +2,7 @@ import './Styles/App.css';
 import './Styles/mediaQueries.css'
 import './Styles/menu.css'
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,Navigate } from "react-router-dom";
 import * as React from "react";
 import  {Redes} from './Components/redes';
 import  {Nav}  from './Components/nav';
@@ -35,11 +35,11 @@ const App = ()=>{
       </Routes> 
 
         
-
+      </Router>
        <footer >
        <Redes/>
        </footer>
-  </Router>
+
        </>
    )
 }
