@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "http://talleresdyg.com",
+  base: "https://joaqpareja.github.io/TallerProject/",
   plugins: [react()],
   overlay: {
     warnings: false,
